@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { MuiTypography } from './components/MuiTypography';
+import { MuiButton } from './components/MuiButton';
+import { TextField } from '@mui/material';
+import { MuiTextField } from './components/MuiTextField';
+import { MuiSelect } from './components/MuiSelect'
+import { MuiRadioButton } from './components/MuiRadioButton'
+import { MuiCheckbox } from './components/MuiCheckbox'
+import { MuiSwitch } from './components/MuiSwitch';
+import { MuiRating } from './components/MuiRating';
+import { MuiAutocomplete } from './components/MuiAutocomplete';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <MuiTypography /> */}
+      {/* <MuiButton /> */}
+      {/* <MuiTextField /> */}
+      {/* <MuiSelect /> */}
+      {/* <MuiRadioButton /> */}
+      {/* <MuiCheckbox /> */}
+      {/* <MuiSwitch /> */}
+      {/* <MuiRating /> */}
+      <MuiAutocomplete />
     </div>
   );
 }
